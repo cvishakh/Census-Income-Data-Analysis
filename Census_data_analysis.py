@@ -5,7 +5,7 @@ import seaborn as sns
 #Load the dataset
 df = pd.read_csv('census_income_dataset.csv')
 
-# Age distribution(Plot 1)
+#Age distribution(Plot 1)
 plt.figure(figsize=(10, 8))
 plt.hist(df['AGE'], bins=20, color='mediumseagreen')
 plt.title('Age distribution of respondents', fontsize=14)
@@ -28,7 +28,7 @@ plt.show()
 df['SALARY_GROUP'] = df['SALARY'].apply(lambda x: 0 if x.strip() == '<=50K' else 1)  # Group salary
 education_salary = df.groupby(['EDUCATION', 'SALARY_GROUP']).size().unstack(fill_value=0)
 
-# Stacked Bar Chart
+#Stacked Bar Chart
 education_salary.plot(kind='bar', stacked=True, figsize=(10, 8), color=["red", "blue"])
 plt.title("Educational level and salary", fontsize=14)
 plt.xlabel("Education Level", fontsize=11)
