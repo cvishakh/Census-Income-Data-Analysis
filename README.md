@@ -13,13 +13,13 @@ The following tasks were performed as part of this analysis:
 2. **Data Visualization**
    - Three different types of plots were created to visualize the data:
      
-     a) **Age Distribution of Respondents**
+     a) Age Distribution of Respondents**
         - A histogram was used to show the distribution of respondent ages.
      
-     b) **Frequency of Relationship Status**
+     b) Frequency of Relationship Status**
         - A bar chart was used to visualize the frequency of each relationship status.
      
-     c) **Salary Distribution by Educational Level**
+     c) Salary Distribution by Educational Level**
         - A grouped bar chart was used to show the number of respondents earning `<=50K` or `>50K` within each educational level.
 
 3. **Figure Compilation**
