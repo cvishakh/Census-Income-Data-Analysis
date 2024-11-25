@@ -2,19 +2,13 @@
 
 This repository contains an analysis of the Census Income dataset. The goal is to load, analyze, and visualize the dataset using different types of plots, as described below.
 
-## Contents
-
-- `census_income_dataset.csv`: The dataset used for analysis.
-- `Census_data_analysis.py`: Python script for loading and visualizing the dataset.
-- `Overview_Census_Income.svg`: The combined figure created using Inkscape.
-- `Overview_Census_Income.png`: Exported PNG version of the combined figure.
 
 ## Data Analysis
 
 The following tasks were performed as part of this analysis:
 
 1. **Load the Dataset**
-   - The dataset was loaded from `census_income_dataset.csv` using Python.
+   - The dataset was loaded from `census_income_dataset.csv`
 
 2. **Data Visualization**
    - Three different types of plots were created to visualize the data:
